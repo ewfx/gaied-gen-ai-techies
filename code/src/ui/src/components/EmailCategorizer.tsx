@@ -58,7 +58,7 @@ export const EmailCategorizer: React.FC = () => {
   return (
     <Container maxWidth="sm" style={{ marginTop: "50px" }}>
       <Typography variant="h4" gutterBottom>
-        Generate Response from EML File
+        GenAITechies
       </Typography>
       <Box
         component="form"
