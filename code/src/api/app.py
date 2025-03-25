@@ -1,8 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from model import GenerativeAIModel
 
 # Initialize Flask app
 app = Flask(__name__)
+
+# Enable CORS
+CORS(app, origins=["*"])
 
 # Initialize the Generative AI model
 ai_model = GenerativeAIModel()
