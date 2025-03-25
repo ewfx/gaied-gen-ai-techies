@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from model import GenerativeAIModel
+import os
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -11,6 +12,10 @@ CORS(app, origins=["*"])
 # Initialize the Generative AI model
 ai_model = GenerativeAIModel()
 
+# Directory to save uploaded .eml files
+UPLOAD_FOLDER = "uploaded_emails"
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
 @app.route('/generate', methods=['POST'])
 def generate_response():
     try:
@@ -19,9 +24,16 @@ def generate_response():
         if not input_data or "message" not in input_data:
             return jsonify({"error": "Invalid input. 'message' field is required."}), 400
 
-        # Generate response using the model
-        message = input_data["message"]
-        response_text = ai_model.generate_response(message)
+        # Get the .eml file content from the request
+        eml_content = input_data["message"]
+
+        # Save the .eml content to a new file
+        eml_file_path = os.path.join(UPLOAD_FOLDER, "uploaded_email.eml")
+        with open(eml_file_path, "w", encoding="utf-8") as eml_file:
+            eml_file.write(eml_content)
+
+        # Pass the .eml content to the Generative AI model
+        response_text = ai_model.generate_response(eml_content)
 
         # Return the response
         return jsonify({"response": response_text})
