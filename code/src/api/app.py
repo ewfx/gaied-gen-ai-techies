@@ -3,6 +3,7 @@ from flask_cors import CORS
 from model import GenerativeAIModel
 import os
 from parser import EMLParser
+from datapreprocessing import ChatHistoryProcessor
 
 # Preparing the chat history
 def prepareChatHistory():
@@ -15,6 +16,12 @@ def prepareChatHistory():
     # Process the parsed .eml files
     parser.process_eml_files()
 
+    # Initialize the ChatHistoryProcessor
+    processor = ChatHistoryProcessor(input_directory="../data/json", output_file="../data/chathistory.json")
+
+    # Combine JSON files into a single JSON array
+    processor.combine_json_files()
+
 # Initialize Flask app
 app = Flask(__name__)
 
@@ -26,7 +33,7 @@ ai_model = GenerativeAIModel()
 
 prepareChatHistory()
 
-Directory to save uploaded .eml files
+# Directory to save uploaded .eml files
 UPLOAD_FOLDER = "uploaded_emails"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
