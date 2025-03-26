@@ -37,9 +37,9 @@ class GenerativeAIModel:
 
                 REQUEST_TYPES = {
                     "Adjustment": [],
-                    "AU Transfer": ["Reallocation Fees", "Amendment Fees", "Reallocation Principal"],
-                    "Closing Notice": ["Cashless Roll", "Decrease", "Increase"],
-                    "Commitment Change": [],
+                    "AU Transfer": [],
+                    "Closing Notice": ["Reallocation Fees", "Amendment Fees", "Reallocation Principal"],
+                    "Commitment Change": ["Cashless Roll", "Decrease", "Increase"],
                     "Fee Payment": ["Ongoing Fee", "Letter of Credit Fee"],
                     "Money Movement - Inbound": ["Principal", "Interest", "Principal + Interest", "Principal + Interest + Fee"],
                     "Money Movement - Outbound": ["Timebound", "Foreign Currency"]
