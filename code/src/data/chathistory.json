@@ -1,0 +1,177 @@
+[
+    {
+        "Request Type": "Adjustment",
+        "Sub Request Type": "",
+        "Subject": "Urgent: Loan Adjustment Request \u2013 Account # 3456789",
+        "Body": "Dear Loan Servicing Department,\nI hope this email finds you well. I am writing to formally request an adjustment to the terms of my loan account #3456789, under the name John A. Peterson. Due to recent financial hardship, I am experiencing difficulties in maintaining the current payment schedule and would like to explore available options such as payment deferral, loan modification, or reduced payments.\nDetails of My Request:\n\n  *\nLoan Account Number: 3456789\n  *\nLoan Type: Mortgage Loan\n  *\nCurrent Monthly Payment: $1,500\n  *\nRequested Adjustment: Temporary payment reduction to $1,000 for six months\n\nTo support my request, I have attached the following documents:\n\n  1.\nA formal loan adjustment request letter (PDF).\n  2.\nA recent pay stub (image) indicating reduced income.\n\nPlease review my request and let me know if any additional documentation is required. I appreciate your time and assistance in this matter.\nLooking forward to your prompt response.\nBest regards,\nJohn A. Peterson\n123 Maple Street, Springfield, IL 62704\n(555) 678-1234\njohn.peterson@email.com\n\n",
+        "Attachments": [
+            "Loan_Adjustment_Request.pdf",
+            "Pay_Stub.png"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "AU_Transfer",
+        "Sub Request Type": "Ammendment_Fees",
+        "Subject": "Request for Payment \u2013 AU Transfer Amendment Fees",
+        "Body": "Dear John,\n\nWe hope this email finds you well.\n\nThis is to inform you that an amendment fee of AUD 1,250 has been applied to Loan Account AU-347921 \ndue to the recent transfer modification requested on March 20, 2025. Please find the attached invoice for reference.\n\nKindly arrange payment by April 5, 2025 to avoid any delays in processing. Below are the payment details:\n\nBank Name: XYZ Bank\nAccount Number: 098-765-4321\nSWIFT Code: XYZBAU33\nReference: AU-347921 Amendment Fee\n\nIf you have any questions or require further clarification, please do not hesitate to contact us.\n\nBest regards,\nEmma Richardson\nLoan Servicing Officer\nXYZ Bank\nPhone: +61 2 9876 5432\n",
+        "Attachments": [
+            "Invoice_AU-347921.pdf"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "AU_Transfer",
+        "Sub Request Type": "Reallocation_Fees",
+        "Subject": "Request for AU Transfer Reallocation Fees Adjustment \u2013 Account #6789054",
+        "Body": "Dear Loan Servicing Department,\nI am writing to formally request a review and possible adjustment of the AU Transfer Reallocation Fees applied to my loan account #6789054, under the name Michael T. Lawson. After reviewing my recent loan transaction details, I noticed a reallocation fee of $350, which I would like to discuss for possible reallocation or waiver.\nLoan Details:\n\n  *\nLoan Account Number: 6789054\n  *\nLoan Type: Auto Loan\n  *\nTransfer Amount: $15,000\n  *\nReallocation Fee Charged: $350\n  *\nRequested Action: Fee reallocation or waiver consideration\n\nTo support my request, I have attached:\n\n  1.\nA formal request letter (PDF).\n  2.\nA screenshot of my recent loan statement (image).\n\nI appreciate your time in reviewing this request. Please let me know if any additional documentation is required.\nLooking forward to your response.\nBest regards,\nMichael T. Lawson\n789 Oakwood Lane, Sydney, NSW 2000\n+61 400 789 234\nmichael.lawson@email.com\n\n",
+        "Attachments": [
+            "Reallocation_Fees_Request.pdf",
+            "Loan_Statement.png"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "AU_Transfer",
+        "Sub Request Type": "Reallocation_Principal",
+        "Subject": "AU Transfer Reallocation \u2013 Principal Request Submission",
+        "Body": "Dear James Anderson,\n\nPlease find attached the AU Transfer Reallocation \u2013 Principal Request for Loan Account #45892367 under Borrower Michael Reynolds. Kindly review the request and process it accordingly.\n\nRequest Details:\n- Loan Account Number: 45892367\n- Borrower Name: Michael Reynolds\n- Reallocation Amount: AUD 75,000\n- Effective Date: March 27, 2025\n- Supporting Documents: Attached\n\nShould you require any further information, please let us know at your earliest convenience.\n\nBest regards,  \nEmma Williams  \nLoan Servicing Team  \nABC Financial Services  \nEmail: support@abcfinancial.com  \nPhone: +61 2 3456 7890\n",
+        "Attachments": [
+            "AU_Transfer_Request_45892367.pdf",
+            "Loan_Statement_45892367.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Closing_Notice",
+        "Sub Request Type": "Cashless_Roll",
+        "Subject": "Closing Notice \u2013 Cashless Roll Request Submission",
+        "Body": "Dear Sarah Thompson,\n\nPlease find attached the Closing Notice \u2013 Cashless Roll Request for Loan Account #78234561 under Borrower David Collins. Kindly review and proceed with the necessary actions.\n\nRequest Details:\n- Loan Account Number: 78234561\n- Borrower Name: David Collins\n- Outstanding Balance: AUD 150,000\n- New Loan Roll Amount: AUD 150,000\n- Effective Date: March 27, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nLisa Carter  \nLoan Servicing Team  \nXYZ Financial Services  \nEmail: support@xyzfinancial.com  \nPhone: +61 3 5678 9012\n",
+        "Attachments": [
+            "Closing_Notice_Cashless_Roll_78234561.pdf",
+            "Loan_Balance_Statement_78234561.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Closing_Notice",
+        "Sub Request Type": "Decrease",
+        "Subject": "Closing Notice \u2013 Decrease Request Submission",
+        "Body": "Dear Robert Jenkins,\n\nPlease find attached the Closing Notice \u2013 Decrease Request for Loan Account #96325874 under Borrower Sophia Bennett. Kindly review and proceed with the necessary actions.\n\nRequest Details:\n- Loan Account Number: 96325874\n- Borrower Name: Sophia Bennett\n- Current Loan Amount: AUD 200,000\n- Decrease Amount: AUD 50,000\n- New Loan Balance: AUD 150,000\n- Effective Date: March 27, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nDaniel Cooper  \nLoan Servicing Team  \nLMN Financial Services  \nEmail: support@lmnfinancial.com  \nPhone: +61 4 6789 0123\n",
+        "Attachments": [
+            "Closing_Notice_Decrease_96325874.pdf",
+            "Updated_Loan_Statement_96325874.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Closing_Notice",
+        "Sub Request Type": "Increase",
+        "Subject": "Closing Notice \u2013 Increase Request Submission",
+        "Body": "Dear Mark Stevenson,\n\nPlease find attached the Closing Notice \u2013 Increase Request for Loan Account #74125896 under Borrower Emily Roberts. Kindly review and proceed with the necessary actions.\n\nRequest Details:\n- Loan Account Number: 74125896\n- Borrower Name: Emily Roberts\n- Current Loan Amount: AUD 120,000\n- Increase Amount: AUD 30,000\n- New Loan Balance: AUD 150,000\n- Effective Date: March 27, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nJonathan Miller  \nLoan Servicing Team  \nPQR Financial Services  \nEmail: support@pqrfinancial.com  \nPhone: +61 5 7890 1234\n",
+        "Attachments": [
+            "Closing_Notice_Increase_74125896.pdf",
+            "Updated_Loan_Statement_74125896.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Commitment_Change",
+        "Sub Request Type": "",
+        "Subject": "Commitment Change Request Submission",
+        "Body": "Dear Laura Mitchell,\n\nPlease find attached the Commitment Change Request for Loan Account #85236974 under Borrower Michael Harrison. Kindly review and proceed with the necessary changes.\n\nRequest Details:\n- Loan Account Number: 85236974\n- Borrower Name: Michael Harrison\n- Current Commitment Amount: AUD 500,000\n- Requested Change: Increase commitment to AUD 600,000\n- Effective Date: March 28, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nOlivia Parker  \nLoan Servicing Team  \nXYZ Financial Group  \nEmail: support@xyzfinancial.com  \nPhone: +61 6 8901 2345\n",
+        "Attachments": [
+            "Commitment_Change_Request_85236974.pdf",
+            "Updated_Commitment_Summary_85236974.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Fee_Payment",
+        "Sub Request Type": "Letter_of_Credit_Fee",
+        "Subject": "Fee Payment \u2013 Letter of Credit Fee Request Submission",
+        "Body": "Dear Christopher Hayes,\n\nPlease find attached the Fee Payment \u2013 Letter of Credit Fee Request for Loan Account #47851236 under Borrower David Turner. Kindly review and process the payment accordingly.\n\nRequest Details:\n- Loan Account Number: 47851236\n- Borrower Name: David Turner\n- Fee Type: Letter of Credit Fee\n- Fee Amount: AUD 2,500\n- Billing Period: March 2025\n- Due Date: March 31, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nSophia Bennett  \nLoan Servicing Team  \nDEF Banking Corporation  \nEmail: support@defbanking.com  \nPhone: +61 8 2345 6789\n",
+        "Attachments": [
+            "Letter_of_Credit_Fee_Request_47851236.pdf",
+            "Fee_Invoice_47851236.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Fee_Payment",
+        "Sub Request Type": "Ongoing_Fee",
+        "Subject": "Fee Payment \u2013 Ongoing Fee Request Submission",
+        "Body": "Dear Benjamin Carter,\n\nPlease find attached the Fee Payment \u2013 Ongoing Fee Request for Loan Account #36974125 under Borrower Jessica Adams. Kindly review and process the payment accordingly.\n\nRequest Details:\n- Loan Account Number: 36974125\n- Borrower Name: Jessica Adams\n- Fee Type: Ongoing Service Fee\n- Fee Amount: AUD 1,200\n- Billing Period: March 2025\n- Due Date: March 31, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nNathan Lewis  \nLoan Servicing Team  \nABC Financial Solutions  \nEmail: support@abcfinancial.com  \nPhone: +61 7 9012 3456\n",
+        "Attachments": [
+            "Fee_Payment_Request_36974125.pdf",
+            "Fee_Invoice_36974125.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Money_Movement_Inbound",
+        "Sub Request Type": "Interest",
+        "Subject": "Money Movement \u2013 Inbound Interest Request Submission",
+        "Body": "Dear Rachel Mitchell,\n\nPlease find attached the Money Movement \u2013 Inbound Interest Request for Loan Account #63254789 under Borrower Michael Anderson. Kindly review and confirm the receipt of funds.\n\nRequest Details:\n- Loan Account Number: 63254789\n- Borrower Name: Michael Anderson\n- Transaction Type: Inbound Interest Payment\n- Amount Received: AUD 8,750\n- Payment Date: March 28, 2025\n- Payment Reference: MMI-6325-2025\n- Supporting Documents: Attached\n\nPlease confirm once the payment has been applied. Let us know if any further details are needed.\n\nBest regards,  \nOlivia Parker  \nLoan Servicing Team  \nJKL Financial Group  \nEmail: support@jklfinancial.com  \nPhone: +61 3 8765 4321\n",
+        "Attachments": [
+            "Inbound_Interest_Request_63254789.pdf",
+            "Interest_Payment_Receipt_63254789.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Money_Movement_Inbound",
+        "Sub Request Type": "Principal",
+        "Subject": "Money Movement \u2013 Inbound Principal Request Submission",
+        "Body": "Dear Jonathan Reed,\n\nPlease find attached the Money Movement \u2013 Inbound Principal Request for Loan Account #78541239 under Borrower Emma Collins. Kindly review and confirm the receipt of funds.\n\nRequest Details:\n- Loan Account Number: 78541239\n- Borrower Name: Emma Collins\n- Transaction Type: Inbound Principal Payment\n- Amount Received: AUD 150,000\n- Payment Date: March 27, 2025\n- Payment Reference: MMIP-7854-2025\n- Supporting Documents: Attached\n\nPlease confirm once the payment has been applied. Let us know if any further details are needed.\n\nBest regards,  \nDaniel Foster  \nLoan Servicing Team  \nGHI Financial Services  \nEmail: support@ghifinancial.com  \nPhone: +61 9 5678 9012\n",
+        "Attachments": [
+            "Inbound_Principal_Request_78541239.pdf",
+            "Payment_Receipt_78541239.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Money_Movement_Inbound",
+        "Sub Request Type": "Principal_Interest",
+        "Subject": "Money Movement \u2013 Inbound Principal + Interest Request Submission",
+        "Body": "Dear William Carter,\n\nPlease find attached the Money Movement \u2013 Inbound Principal + Interest Request for Loan Account #91237654 under Borrower Sophia Harris. Kindly review and confirm the receipt of funds.\n\nRequest Details:\n- Loan Account Number: 91237654\n- Borrower Name: Sophia Harris\n- Transaction Type: Inbound Principal + Interest Payment\n- Principal Amount Received: AUD 200,000\n- Interest Amount Received: AUD 9,500\n- Total Amount Received: AUD 209,500\n- Payment Date: March 29, 2025\n- Payment Reference: MMPI-9123-2025\n- Supporting Documents: Attached\n\nPlease confirm once the payment has been applied. Let us know if any further details are needed.\n\nBest regards,  \nEthan Brooks  \nLoan Servicing Team  \nMNO Financial Services  \nEmail: support@mnofinancial.com  \nPhone: +61 7 6543 2109\n",
+        "Attachments": [
+            "Inbound_Principal_Interest_Request_91237654.pdf",
+            "Payment_Receipt_91237654.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Money_Movement_Inbound",
+        "Sub Request Type": "Principal_Interest_Fee",
+        "Subject": "Money Movement \u2013 Inbound Principal + Interest + Fee Request Submission",
+        "Body": "Dear Jonathan Reed,\n\nPlease find attached the Money Movement \u2013 Inbound Principal + Interest + Fee Request for Loan Account #78451239 under Borrower Emma Richardson. Kindly review and confirm the receipt of funds.\n\nRequest Details:\n- Loan Account Number: 78451239\n- Borrower Name: Emma Richardson\n- Transaction Type: Inbound Principal + Interest + Fee Payment\n- Principal Amount Received: AUD 150,000\n- Interest Amount Received: AUD 7,250\n- Fee Amount Received: AUD 1,500\n- Total Amount Received: AUD 158,750\n- Payment Date: March 30, 2025\n- Payment Reference: MMPI-F-7845-2025\n- Supporting Documents: Attached\n\nPlease confirm once the payment has been applied. Let us know if any further details are needed.\n\nBest regards,  \nDaniel Foster  \nLoan Servicing Team  \nPQR Financial Solutions  \nEmail: support@pqrfinancial.com  \nPhone: +61 2 9876 5432\n",
+        "Attachments": [
+            "Inbound_Principal_Interest_Fee_Request_78451239.pdf",
+            "Payment_Receipt_78451239.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Money_Movement_Outbound",
+        "Sub Request Type": "Foreign_Currency",
+        "Subject": "Money Movement \u2013 Outbound Foreign Currency Request Submission",
+        "Body": "Dear William Carter,\n\nPlease find attached the Money Movement \u2013 Outbound Foreign Currency Request for Loan Account #92384756 under Borrower Sophia Martinez. Kindly review and process the outbound transfer as per the details below.\n\nRequest Details:\n- Loan Account Number: 92384756\n- Borrower Name: Sophia Martinez\n- Transaction Type: Outbound Foreign Currency Payment\n- Amount to be Disbursed: USD 85,000 (Equivalent to AUD 130,500)\n- Exchange Rate Applied: 1 AUD = 0.65 USD\n- Disbursement Date: April 5, 2025\n- Payment Reference: MMFC-9238-2025\n- Recipient Bank: Global Trade Bank, New York\n- Recipient Account Number: 9876543210\n- SWIFT Code: GTBNUS33XXX\n- Supporting Documents: Attached\n\nPlease confirm once the transfer has been processed. Let us know if any further details are needed.\n\nBest regards,  \nEmma Reynolds  \nLoan Servicing Team  \nABC Capital Finance  \nEmail: support@abccapital.com  \nPhone: +61 7 9876 5432\n",
+        "Attachments": [
+            "Outbound_Foreign_Currency_Request_92384756.pdf",
+            "Wire_Transfer_Confirmation_92384756.jpg"
+        ],
+        "Confidence score": 1
+    },
+    {
+        "Request Type": "Money_Movement_Outbound",
+        "Sub Request Type": "Timebound",
+        "Subject": "Money Movement \u2013 Outbound Timebound Request Submission",
+        "Body": "Dear Benjamin Scott,\n\nPlease find attached the Money Movement \u2013 Outbound Timebound Request for Loan Account #63521847 under Borrower Olivia Thompson. Kindly review and process the outbound transfer as per the details below.\n\nRequest Details:\n- Loan Account Number: 63521847\n- Borrower Name: Olivia Thompson\n- Transaction Type: Outbound Timebound Payment\n- Principal Amount to be Disbursed: AUD 120,000\n- Interest Amount to be Disbursed: AUD 5,600\n- Total Amount to be Disbursed: AUD 125,600\n- Disbursement Date: April 2, 2025\n- Payment Reference: MMOT-6352-2025\n- Recipient Bank: ABC National Bank\n- Recipient Account Number: 3284765091\n- Supporting Documents: Attached\n\nPlease confirm once the transfer has been processed. Let us know if any further details are needed.\n\nBest regards,  \nMichael Dawson  \nLoan Servicing Team  \nXYZ Financial Services  \nEmail: support@xyzfinancial.com  \nPhone: +61 3 4567 8910\n",
+        "Attachments": [
+            "Outbound_Timebound_Request_63521847.pdf",
+            "Disbursement_Confirmation_63521847.jpg"
+        ],
+        "Confidence score": 1
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "Request Type": "Fee_Payment",
+    "Sub Request Type": "Ongoing_Fee",
+    "Subject": "Fee Payment \u2013 Ongoing Fee Request Submission",
+    "Body": "Dear Benjamin Carter,\n\nPlease find attached the Fee Payment \u2013 Ongoing Fee Request for Loan Account #36974125 under Borrower Jessica Adams. Kindly review and process the payment accordingly.\n\nRequest Details:\n- Loan Account Number: 36974125\n- Borrower Name: Jessica Adams\n- Fee Type: Ongoing Service Fee\n- Fee Amount: AUD 1,200\n- Billing Period: March 2025\n- Due Date: March 31, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nNathan Lewis  \nLoan Servicing Team  \nABC Financial Solutions  \nEmail: support@abcfinancial.com  \nPhone: +61 7 9012 3456\n",
+    "Attachments": [
+        "Fee_Payment_Request_36974125.pdf",
+        "Fee_Invoice_36974125.jpg"
+    ],
+    "Confidence score": 1
+}

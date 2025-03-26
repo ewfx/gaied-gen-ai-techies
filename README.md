@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 GenAITechies
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+A web application for categorizing banking related Emails
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,37 +24,58 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Manually filtering emails require significant amount of manual efforts and hours. If our system is able to automatically filter and route emails to the respective person, we'll be able to optimize our resources and make our processes more efficient.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+Our web application takes a EML file as input and returns the email category along with confidence score
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Backend: Python, Flask, Gemini api
+Frontend: React
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   https://github.com/ewfx/gaied-gen-ai-techies
    ```
-2. Install dependencies  
+2. Move to backend  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   cd code\src\api
    ```
-3. Run the project  
+3. Install backend dependencies
    ```sh
-   npm start  # or python app.py
+   pip install -r requirements.txt 
+   ```
+4. Run the backend  
+   ```sh
+   python parser.py
+   python datapreprocessing.py
+   python model.py
+   python app.py
+   ```
+5. Move to frontend (In new terminal)
+   ```sh
+   cd code\src\ui
+   ```
+6. Install frontend dependencies
+   ```sh
+   npm install
+   ```
+7. Run the frontend
+   ```sh
+   npm run start
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: React
+- 🔹 Backend: Flask
+- 🔹 Other: Gemini-1.5-Pro
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Pratim Kanrar** - [Pratim Kanrar](https://github.com/pratimkanrar)
+- **Soumik Sen** - [Soumik Sen](https://github.com/insane2899)
+- **Aditi Nath** - [Aditi Nath](https://github.com/Aditi3100)
+- **Biswajit Bhunia** - [Biswajit Bhunia](https://github.com/bisw0)

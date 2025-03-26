@@ -1,0 +1,11 @@
+{
+    "Request Type": "Closing_Notice",
+    "Sub Request Type": "Cashless_Roll",
+    "Subject": "Closing Notice \u2013 Cashless Roll Request Submission",
+    "Body": "Dear Sarah Thompson,\n\nPlease find attached the Closing Notice \u2013 Cashless Roll Request for Loan Account #78234561 under Borrower David Collins. Kindly review and proceed with the necessary actions.\n\nRequest Details:\n- Loan Account Number: 78234561\n- Borrower Name: David Collins\n- Outstanding Balance: AUD 150,000\n- New Loan Roll Amount: AUD 150,000\n- Effective Date: March 27, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nLisa Carter  \nLoan Servicing Team  \nXYZ Financial Services  \nEmail: support@xyzfinancial.com  \nPhone: +61 3 5678 9012\n",
+    "Attachments": [
+        "Closing_Notice_Cashless_Roll_78234561.pdf",
+        "Loan_Balance_Statement_78234561.jpg"
+    ],
+    "Confidence score": 1
+}

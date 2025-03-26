@@ -1,0 +1,11 @@
+{
+    "Request Type": "Fee_Payment",
+    "Sub Request Type": "Letter_of_Credit_Fee",
+    "Subject": "Fee Payment \u2013 Letter of Credit Fee Request Submission",
+    "Body": "Dear Christopher Hayes,\n\nPlease find attached the Fee Payment \u2013 Letter of Credit Fee Request for Loan Account #47851236 under Borrower David Turner. Kindly review and process the payment accordingly.\n\nRequest Details:\n- Loan Account Number: 47851236\n- Borrower Name: David Turner\n- Fee Type: Letter of Credit Fee\n- Fee Amount: AUD 2,500\n- Billing Period: March 2025\n- Due Date: March 31, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nSophia Bennett  \nLoan Servicing Team  \nDEF Banking Corporation  \nEmail: support@defbanking.com  \nPhone: +61 8 2345 6789\n",
+    "Attachments": [
+        "Letter_of_Credit_Fee_Request_47851236.pdf",
+        "Fee_Invoice_47851236.jpg"
+    ],
+    "Confidence score": 1
+}

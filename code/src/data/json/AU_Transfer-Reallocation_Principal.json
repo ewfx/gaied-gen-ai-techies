@@ -1,0 +1,11 @@
+{
+    "Request Type": "AU_Transfer",
+    "Sub Request Type": "Reallocation_Principal",
+    "Subject": "AU Transfer Reallocation \u2013 Principal Request Submission",
+    "Body": "Dear James Anderson,\n\nPlease find attached the AU Transfer Reallocation \u2013 Principal Request for Loan Account #45892367 under Borrower Michael Reynolds. Kindly review the request and process it accordingly.\n\nRequest Details:\n- Loan Account Number: 45892367\n- Borrower Name: Michael Reynolds\n- Reallocation Amount: AUD 75,000\n- Effective Date: March 27, 2025\n- Supporting Documents: Attached\n\nShould you require any further information, please let us know at your earliest convenience.\n\nBest regards,  \nEmma Williams  \nLoan Servicing Team  \nABC Financial Services  \nEmail: support@abcfinancial.com  \nPhone: +61 2 3456 7890\n",
+    "Attachments": [
+        "AU_Transfer_Request_45892367.pdf",
+        "Loan_Statement_45892367.jpg"
+    ],
+    "Confidence score": 1
+}

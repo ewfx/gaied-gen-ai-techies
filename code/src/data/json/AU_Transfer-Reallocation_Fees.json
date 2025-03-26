@@ -1,0 +1,11 @@
+{
+    "Request Type": "AU_Transfer",
+    "Sub Request Type": "Reallocation_Fees",
+    "Subject": "Request for AU Transfer Reallocation Fees Adjustment \u2013 Account #6789054",
+    "Body": "Dear Loan Servicing Department,\nI am writing to formally request a review and possible adjustment of the AU Transfer Reallocation Fees applied to my loan account #6789054, under the name Michael T. Lawson. After reviewing my recent loan transaction details, I noticed a reallocation fee of $350, which I would like to discuss for possible reallocation or waiver.\nLoan Details:\n\n  *\nLoan Account Number: 6789054\n  *\nLoan Type: Auto Loan\n  *\nTransfer Amount: $15,000\n  *\nReallocation Fee Charged: $350\n  *\nRequested Action: Fee reallocation or waiver consideration\n\nTo support my request, I have attached:\n\n  1.\nA formal request letter (PDF).\n  2.\nA screenshot of my recent loan statement (image).\n\nI appreciate your time in reviewing this request. Please let me know if any additional documentation is required.\nLooking forward to your response.\nBest regards,\nMichael T. Lawson\n789 Oakwood Lane, Sydney, NSW 2000\n+61 400 789 234\nmichael.lawson@email.com\n\n",
+    "Attachments": [
+        "Reallocation_Fees_Request.pdf",
+        "Loan_Statement.png"
+    ],
+    "Confidence score": 1
+}
