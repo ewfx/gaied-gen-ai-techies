@@ -37,10 +37,11 @@ export const EmailCategorizer: React.FC = () => {
     }
 
     try {
-      const fileContent = await file.text(); // Read the file content as text
+      const fileContent = await file.text();
 
       const res = await axios.post(`${config.API_BASE_URL}/generate`, {
         message: fileContent,
+        fileName: file.name, 
       });
 
       setResponse(res.data.response);

@@ -28,7 +28,7 @@ def generate_response():
         eml_content = input_data["message"]
 
         # Save the .eml content to a new file
-        eml_file_path = os.path.join(UPLOAD_FOLDER, "uploaded_email.eml")
+        eml_file_path = os.path.join(UPLOAD_FOLDER, input_data["fileName"])
         with open(eml_file_path, "w", encoding="utf-8") as eml_file:
             eml_file.write(eml_content)
 
