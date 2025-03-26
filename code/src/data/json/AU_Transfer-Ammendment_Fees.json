@@ -1,0 +1,9 @@
+{
+    "Request Type": "AU_Transfer",
+    "Sub Request Type": "Ammendment_Fees",
+    "Subject": "Request for Payment \u2013 AU Transfer Amendment Fees",
+    "Body": "Dear John,\n\nWe hope this email finds you well.\n\nThis is to inform you that an amendment fee of AUD 1,250 has been applied to Loan Account AU-347921 \ndue to the recent transfer modification requested on March 20, 2025. Please find the attached invoice for reference.\n\nKindly arrange payment by April 5, 2025 to avoid any delays in processing. Below are the payment details:\n\nBank Name: XYZ Bank\nAccount Number: 098-765-4321\nSWIFT Code: XYZBAU33\nReference: AU-347921 Amendment Fee\n\nIf you have any questions or require further clarification, please do not hesitate to contact us.\n\nBest regards,\nEmma Richardson\nLoan Servicing Officer\nXYZ Bank\nPhone: +61 2 9876 5432\n",
+    "Attachments": [
+        "Invoice_AU-347921.pdf"
+    ]
+}

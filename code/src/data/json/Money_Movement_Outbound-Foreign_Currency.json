@@ -1,0 +1,10 @@
+{
+    "Request Type": "Money_Movement_Outbound",
+    "Sub Request Type": "Foreign_Currency",
+    "Subject": "Money Movement \u2013 Outbound Foreign Currency Request Submission",
+    "Body": "Dear William Carter,\n\nPlease find attached the Money Movement \u2013 Outbound Foreign Currency Request for Loan Account #92384756 under Borrower Sophia Martinez. Kindly review and process the outbound transfer as per the details below.\n\nRequest Details:\n- Loan Account Number: 92384756\n- Borrower Name: Sophia Martinez\n- Transaction Type: Outbound Foreign Currency Payment\n- Amount to be Disbursed: USD 85,000 (Equivalent to AUD 130,500)\n- Exchange Rate Applied: 1 AUD = 0.65 USD\n- Disbursement Date: April 5, 2025\n- Payment Reference: MMFC-9238-2025\n- Recipient Bank: Global Trade Bank, New York\n- Recipient Account Number: 9876543210\n- SWIFT Code: GTBNUS33XXX\n- Supporting Documents: Attached\n\nPlease confirm once the transfer has been processed. Let us know if any further details are needed.\n\nBest regards,  \nEmma Reynolds  \nLoan Servicing Team  \nABC Capital Finance  \nEmail: support@abccapital.com  \nPhone: +61 7 9876 5432\n",
+    "Attachments": [
+        "Outbound_Foreign_Currency_Request_92384756.pdf",
+        "Wire_Transfer_Confirmation_92384756.jpg"
+    ]
+}

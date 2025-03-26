@@ -1,0 +1,10 @@
+{
+    "Request Type": "Closing_Notice",
+    "Sub Request Type": "Increase",
+    "Subject": "Closing Notice \u2013 Increase Request Submission",
+    "Body": "Dear Mark Stevenson,\n\nPlease find attached the Closing Notice \u2013 Increase Request for Loan Account #74125896 under Borrower Emily Roberts. Kindly review and proceed with the necessary actions.\n\nRequest Details:\n- Loan Account Number: 74125896\n- Borrower Name: Emily Roberts\n- Current Loan Amount: AUD 120,000\n- Increase Amount: AUD 30,000\n- New Loan Balance: AUD 150,000\n- Effective Date: March 27, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nJonathan Miller  \nLoan Servicing Team  \nPQR Financial Services  \nEmail: support@pqrfinancial.com  \nPhone: +61 5 7890 1234\n",
+    "Attachments": [
+        "Closing_Notice_Increase_74125896.pdf",
+        "Updated_Loan_Statement_74125896.jpg"
+    ]
+}

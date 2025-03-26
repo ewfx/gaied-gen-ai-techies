@@ -1,0 +1,10 @@
+{
+    "Request Type": "Commitment_Change",
+    "Sub Request Type": "",
+    "Subject": "Commitment Change Request Submission",
+    "Body": "Dear Laura Mitchell,\n\nPlease find attached the Commitment Change Request for Loan Account #85236974 under Borrower Michael Harrison. Kindly review and proceed with the necessary changes.\n\nRequest Details:\n- Loan Account Number: 85236974\n- Borrower Name: Michael Harrison\n- Current Commitment Amount: AUD 500,000\n- Requested Change: Increase commitment to AUD 600,000\n- Effective Date: March 28, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nOlivia Parker  \nLoan Servicing Team  \nXYZ Financial Group  \nEmail: support@xyzfinancial.com  \nPhone: +61 6 8901 2345\n",
+    "Attachments": [
+        "Commitment_Change_Request_85236974.pdf",
+        "Updated_Commitment_Summary_85236974.jpg"
+    ]
+}

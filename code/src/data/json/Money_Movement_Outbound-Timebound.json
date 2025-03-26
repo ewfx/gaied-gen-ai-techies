@@ -1,0 +1,10 @@
+{
+    "Request Type": "Money_Movement_Outbound",
+    "Sub Request Type": "Timebound",
+    "Subject": "Money Movement \u2013 Outbound Timebound Request Submission",
+    "Body": "Dear Benjamin Scott,\n\nPlease find attached the Money Movement \u2013 Outbound Timebound Request for Loan Account #63521847 under Borrower Olivia Thompson. Kindly review and process the outbound transfer as per the details below.\n\nRequest Details:\n- Loan Account Number: 63521847\n- Borrower Name: Olivia Thompson\n- Transaction Type: Outbound Timebound Payment\n- Principal Amount to be Disbursed: AUD 120,000\n- Interest Amount to be Disbursed: AUD 5,600\n- Total Amount to be Disbursed: AUD 125,600\n- Disbursement Date: April 2, 2025\n- Payment Reference: MMOT-6352-2025\n- Recipient Bank: ABC National Bank\n- Recipient Account Number: 3284765091\n- Supporting Documents: Attached\n\nPlease confirm once the transfer has been processed. Let us know if any further details are needed.\n\nBest regards,  \nMichael Dawson  \nLoan Servicing Team  \nXYZ Financial Services  \nEmail: support@xyzfinancial.com  \nPhone: +61 3 4567 8910\n",
+    "Attachments": [
+        "Outbound_Timebound_Request_63521847.pdf",
+        "Disbursement_Confirmation_63521847.jpg"
+    ]
+}

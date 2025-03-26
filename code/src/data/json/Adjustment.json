@@ -1,0 +1,10 @@
+{
+    "Request Type": "Adjustment",
+    "Sub Request Type": "",
+    "Subject": "Urgent: Loan Adjustment Request \u2013 Account # 3456789",
+    "Body": "Dear Loan Servicing Department,\nI hope this email finds you well. I am writing to formally request an adjustment to the terms of my loan account #3456789, under the name John A. Peterson. Due to recent financial hardship, I am experiencing difficulties in maintaining the current payment schedule and would like to explore available options such as payment deferral, loan modification, or reduced payments.\nDetails of My Request:\n\n  *\nLoan Account Number: 3456789\n  *\nLoan Type: Mortgage Loan\n  *\nCurrent Monthly Payment: $1,500\n  *\nRequested Adjustment: Temporary payment reduction to $1,000 for six months\n\nTo support my request, I have attached the following documents:\n\n  1.\nA formal loan adjustment request letter (PDF).\n  2.\nA recent pay stub (image) indicating reduced income.\n\nPlease review my request and let me know if any additional documentation is required. I appreciate your time and assistance in this matter.\nLooking forward to your prompt response.\nBest regards,\nJohn A. Peterson\n123 Maple Street, Springfield, IL 62704\n(555) 678-1234\njohn.peterson@email.com\n\n",
+    "Attachments": [
+        "Loan_Adjustment_Request.pdf",
+        "Pay_Stub.png"
+    ]
+}

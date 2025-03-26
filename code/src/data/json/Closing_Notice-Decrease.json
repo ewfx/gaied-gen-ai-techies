@@ -1,0 +1,10 @@
+{
+    "Request Type": "Closing_Notice",
+    "Sub Request Type": "Decrease",
+    "Subject": "Closing Notice \u2013 Decrease Request Submission",
+    "Body": "Dear Robert Jenkins,\n\nPlease find attached the Closing Notice \u2013 Decrease Request for Loan Account #96325874 under Borrower Sophia Bennett. Kindly review and proceed with the necessary actions.\n\nRequest Details:\n- Loan Account Number: 96325874\n- Borrower Name: Sophia Bennett\n- Current Loan Amount: AUD 200,000\n- Decrease Amount: AUD 50,000\n- New Loan Balance: AUD 150,000\n- Effective Date: March 27, 2025\n- Supporting Documents: Attached\n\nShould you require any additional information, please let us know.\n\nBest regards,  \nDaniel Cooper  \nLoan Servicing Team  \nLMN Financial Services  \nEmail: support@lmnfinancial.com  \nPhone: +61 4 6789 0123\n",
+    "Attachments": [
+        "Closing_Notice_Decrease_96325874.pdf",
+        "Updated_Loan_Statement_96325874.jpg"
+    ]
+}

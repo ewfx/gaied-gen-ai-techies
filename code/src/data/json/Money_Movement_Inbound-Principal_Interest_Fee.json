@@ -1,0 +1,10 @@
+{
+    "Request Type": "Money_Movement_Inbound",
+    "Sub Request Type": "Principal_Interest_Fee",
+    "Subject": "Money Movement \u2013 Inbound Principal + Interest + Fee Request Submission",
+    "Body": "Dear Jonathan Reed,\n\nPlease find attached the Money Movement \u2013 Inbound Principal + Interest + Fee Request for Loan Account #78451239 under Borrower Emma Richardson. Kindly review and confirm the receipt of funds.\n\nRequest Details:\n- Loan Account Number: 78451239\n- Borrower Name: Emma Richardson\n- Transaction Type: Inbound Principal + Interest + Fee Payment\n- Principal Amount Received: AUD 150,000\n- Interest Amount Received: AUD 7,250\n- Fee Amount Received: AUD 1,500\n- Total Amount Received: AUD 158,750\n- Payment Date: March 30, 2025\n- Payment Reference: MMPI-F-7845-2025\n- Supporting Documents: Attached\n\nPlease confirm once the payment has been applied. Let us know if any further details are needed.\n\nBest regards,  \nDaniel Foster  \nLoan Servicing Team  \nPQR Financial Solutions  \nEmail: support@pqrfinancial.com  \nPhone: +61 2 9876 5432\n",
+    "Attachments": [
+        "Inbound_Principal_Interest_Fee_Request_78451239.pdf",
+        "Payment_Receipt_78451239.jpg"
+    ]
+}
