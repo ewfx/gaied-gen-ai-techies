@@ -74,3 +74,5 @@ Frontend: React
 ## 👥 Team
 - **Pratim Kanrar** - [pratimkanrar](https://github.com/pratimkanrar)
 - **Soumik Sen** - [insane2899](https://github.com/insane2899)
+- **Aditi Nath** - [Aditi Nath](https://github.com/Aditi3100)
+- **Biswajit Bhunia** - [Biswajit Bhunia](https://github.com/bisw0)
