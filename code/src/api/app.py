@@ -55,9 +55,9 @@ def generate_response():
 
         # Pass the .eml content to the Generative AI model
         response_text = ai_model.generate_response(eml_content)
-
+        
         # Return the response
-        return response_text, 200
+        return jsonify({"response": response_text}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
