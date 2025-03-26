@@ -6,6 +6,13 @@ import {
   Box,
   Alert,
   CircularProgress,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper,
 } from "@mui/material";
 import axios from "axios";
 import { config } from "../config/config";
@@ -99,7 +106,25 @@ export const EmailCategorizer: React.FC = () => {
       </Box>
       {response && (
         <Alert severity="success" style={{ marginTop: "20px" }}>
-          <strong>Response:</strong> {response}
+          <strong>Response:</strong>
+          <TableContainer component={Paper} style={{ marginTop: "10px" }}>
+              <Table>
+              <TableHead>
+                <TableRow>
+                  {Object.keys(JSON.parse(response.replace(/```json|```/g, ""))).map((key) => (
+                    <TableCell key={key}><strong>{key}</strong></TableCell>
+                  ))}
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                <TableRow>
+                  {Object.values(JSON.parse(response.replace(/```json|```/g, ""))).map((value, index) => (
+                    <TableCell key={index}>{String(value)}</TableCell>
+                  ))}
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
         </Alert>
       )}
       {error && (
