@@ -17,9 +17,11 @@
 A web application for categorizing banking related Emails
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+
+
+https://github.com/user-attachments/assets/ce2ae9f4-4668-420c-a35d-e748db00834d
+
+
 
 ![Screenshot 1](link-to-image)
 
