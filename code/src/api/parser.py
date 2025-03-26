@@ -77,3 +77,42 @@ class EMLParser:
 
             with open(json_filepath, 'w', encoding='utf-8') as json_file:
                 json.dump(email_data, json_file, indent=4)
+    
+
+    def EMLToJson(eml_string):
+        # Convert the string into a BytesIO stream
+        eml_bytes = BytesIO(eml_string.encode())
+
+        # Parse the email content
+        msg = BytesParser(policy=policy.default).parse(eml_bytes)
+
+        # Extract subject
+        subject = msg["subject"]
+
+        # Extract body (handling plain and HTML content)
+        body = ""
+        if msg.is_multipart():
+            for part in msg.walk():
+                content_type = part.get_content_type()
+                if content_type == "text/plain":
+                    body = part.get_payload(decode=True).decode(part.get_content_charset(), errors="ignore")
+                    break  # Prefer plain text body
+        else:
+            body = msg.get_payload(decode=True).decode(msg.get_content_charset(), errors="ignore")
+        
+        # Extract attachments
+        attachments = []
+        for part in msg.walk():
+            if part.get_content_disposition() == "attachment":
+                file_name = part.get_filename()
+                file_data = part.get_payload(decode=True)
+                attachments.append({"filename": file_name, "size": len(file_data)})
+
+        # Convert to JSON
+        email_data = {
+            "Subject": subject,
+            "Body": body.strip(),
+            "Attachments": attachments
+        }
+        
+        return json.dumps(email_data, indent=4)
