@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
+import json
 
 class GenerativeAIModel:
     def __init__(self):
@@ -28,11 +29,74 @@ class GenerativeAIModel:
         self.model = genai.GenerativeModel(
             model_name="gemini-1.5-pro",
             generation_config=self.generation_config,
-            system_instruction="You are a banker. Categorize the input statement in below categories 1)Payment 2)Loan",
+            system_instruction="""
+                You are an AI tasked with classifying banking related email based on the following fields: Subject, Body and Attachments .
+
+                The categories and subcategories to classify the mails into are as follows:
+
+                REQUEST_TYPES = {
+                    "Adjustment": [],
+                    "AU Transfer": ["Reallocation Fees", "Amendment Fees", "Reallocation Principal"],
+                    "Closing Notice": ["Cashless Roll", "Decrease", "Increase"],
+                    "Commitment Change": [],
+                    "Fee Payment": ["Ongoing Fee", "Letter of Credit Fee"],
+                    "Money Movement - Inbound": ["Principal", "Interest", "Principal + Interest", "Principal + Interest + Fee"],
+                    "Money Movement - Outbound": ["Timebound", "Foreign Currency"]
+                }
+
+                The keys are the request types and the values are the sub categories in the given json REQUEST_TYPES.
+
+                The given input will be an json with the following Keys: 
+                Subject, Body and Attachments. 
+
+                Give me a output strictly in json with the following keys:
+                Request Type, Sub CategoryType, Confidence score based on how confident you are on the classification, extract that made you classify.
+            """,
         )
+
+        # Load input data from chathistory.json
+        data_file_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'chathistory.json')
+        with open(data_file_path, 'r', encoding='utf-8') as file:
+            self.input_data = json.load(file)
 
     def generate_response(self, message):
         # Start a chat session and send the message
-        chat_session = self.model.start_chat(history=[])
+        chat_session = self.model.start_chat(history=self.setupHistory())
         response = chat_session.send_message(message)
         return response.text
+    
+    def setupHistory(self):
+        result = []
+        
+        for entry in self.input_data:  # Use self.input_data here
+            role = "user"  # Default role is 'user'
+            parts = []
+            
+            # Create the first part (formatted JSON string) without Request Type and Sub CategoryType
+            entry_copy = entry.copy()
+            entry_copy.pop("Request Type", None)  # Remove Request Type if it exists
+            entry_copy.pop("Sub Request Type", None)  # Remove Sub CategoryType if it exists
+            formatted_json = json.dumps(entry_copy, indent=4)
+            parts.append(f"{{\n    \"{formatted_json[1:]}\n}}")  # Adjust for required formatting
+            
+            # Append only the user role
+            result.append({
+                "role": role,
+                "parts": parts
+            })
+            
+            # Create a part for the model role with the request type and subcategory type
+            model_part = {
+                "Request Type": entry.get("Request Type", ""),
+                "Sub CategoryType": entry.get("Sub Request Type", ""),
+                "Confidence score": 1,  # This is a static value based on the given data
+            }
+            
+            # Format the model part as JSON
+            model_part_json = json.dumps(model_part, indent=4)
+            result.append({
+                "role": "model",
+                "parts": [f"```json\n{model_part_json}\n```"]
+            })
+        
+        return result

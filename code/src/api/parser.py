@@ -12,7 +12,7 @@ class EMLParser:
         self.input_directory = input_directory
         self.output_directory = output_directory
 
-    def get_eml_filenames(self, directory: str) -> list:  # Added 'self' as the first parameter
+    def get_eml_filenames(self, directory: str) -> list: 
         """
         Takes a local directory path as input and returns a list of .eml file names inside it.
 
@@ -52,7 +52,8 @@ class EMLParser:
             "Sub Request Type": sub_request_type,
             "Subject": msg.get('Subject'),
             "Body": body_text,
-            "Attachments": attachments
+            "Attachments": attachments,
+            "Confidence score": 1
         }
 
         return email_data

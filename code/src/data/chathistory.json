@@ -7,7 +7,8 @@
         "Attachments": [
             "Loan_Adjustment_Request.pdf",
             "Pay_Stub.png"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "AU_Transfer",
@@ -16,7 +17,8 @@
         "Body": "Dear John,\n\nWe hope this email finds you well.\n\nThis is to inform you that an amendment fee of AUD 1,250 has been applied to Loan Account AU-347921 \ndue to the recent transfer modification requested on March 20, 2025. Please find the attached invoice for reference.\n\nKindly arrange payment by April 5, 2025 to avoid any delays in processing. Below are the payment details:\n\nBank Name: XYZ Bank\nAccount Number: 098-765-4321\nSWIFT Code: XYZBAU33\nReference: AU-347921 Amendment Fee\n\nIf you have any questions or require further clarification, please do not hesitate to contact us.\n\nBest regards,\nEmma Richardson\nLoan Servicing Officer\nXYZ Bank\nPhone: +61 2 9876 5432\n",
         "Attachments": [
             "Invoice_AU-347921.pdf"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "AU_Transfer",
@@ -26,7 +28,8 @@
         "Attachments": [
             "Reallocation_Fees_Request.pdf",
             "Loan_Statement.png"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "AU_Transfer",
@@ -36,7 +39,8 @@
         "Attachments": [
             "AU_Transfer_Request_45892367.pdf",
             "Loan_Statement_45892367.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Closing_Notice",
@@ -46,7 +50,8 @@
         "Attachments": [
             "Closing_Notice_Cashless_Roll_78234561.pdf",
             "Loan_Balance_Statement_78234561.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Closing_Notice",
@@ -56,7 +61,8 @@
         "Attachments": [
             "Closing_Notice_Decrease_96325874.pdf",
             "Updated_Loan_Statement_96325874.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Closing_Notice",
@@ -66,7 +72,8 @@
         "Attachments": [
             "Closing_Notice_Increase_74125896.pdf",
             "Updated_Loan_Statement_74125896.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Commitment_Change",
@@ -76,7 +83,8 @@
         "Attachments": [
             "Commitment_Change_Request_85236974.pdf",
             "Updated_Commitment_Summary_85236974.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Fee_Payment",
@@ -86,7 +94,8 @@
         "Attachments": [
             "Letter_of_Credit_Fee_Request_47851236.pdf",
             "Fee_Invoice_47851236.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Fee_Payment",
@@ -96,7 +105,8 @@
         "Attachments": [
             "Fee_Payment_Request_36974125.pdf",
             "Fee_Invoice_36974125.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Money_Movement_Inbound",
@@ -106,7 +116,8 @@
         "Attachments": [
             "Inbound_Interest_Request_63254789.pdf",
             "Interest_Payment_Receipt_63254789.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Money_Movement_Inbound",
@@ -116,7 +127,8 @@
         "Attachments": [
             "Inbound_Principal_Request_78541239.pdf",
             "Payment_Receipt_78541239.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Money_Movement_Inbound",
@@ -126,7 +138,8 @@
         "Attachments": [
             "Inbound_Principal_Interest_Request_91237654.pdf",
             "Payment_Receipt_91237654.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Money_Movement_Inbound",
@@ -136,7 +149,8 @@
         "Attachments": [
             "Inbound_Principal_Interest_Fee_Request_78451239.pdf",
             "Payment_Receipt_78451239.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Money_Movement_Outbound",
@@ -146,7 +160,8 @@
         "Attachments": [
             "Outbound_Foreign_Currency_Request_92384756.pdf",
             "Wire_Transfer_Confirmation_92384756.jpg"
-        ]
+        ],
+        "Confidence score": 1
     },
     {
         "Request Type": "Money_Movement_Outbound",
@@ -156,6 +171,7 @@
         "Attachments": [
             "Outbound_Timebound_Request_63521847.pdf",
             "Disbursement_Confirmation_63521847.jpg"
-        ]
+        ],
+        "Confidence score": 1
     }
 ]
