@@ -2,6 +2,18 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from model import GenerativeAIModel
 import os
+from parser import EMLParser
+
+# Preparing the chat history
+def prepareChatHistory():
+    # Initialize the EMLParser
+    parser = EMLParser(input_directory="..\\data\\eml", output_directory="..\\data\\json")
+
+    # Get the list of .eml files in the input directory
+    eml_files = parser.get_eml_filenames(parser.input_directory)
+
+    # Process the parsed .eml files
+    parser.process_eml_files()
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -12,7 +24,9 @@ CORS(app, origins=["*"])
 # Initialize the Generative AI model
 ai_model = GenerativeAIModel()
 
-# Directory to save uploaded .eml files
+prepareChatHistory()
+
+Directory to save uploaded .eml files
 UPLOAD_FOLDER = "uploaded_emails"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
