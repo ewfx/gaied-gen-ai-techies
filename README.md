@@ -75,7 +75,7 @@ Frontend: React
 - 🔹 Other: Gemini-1.5-Pro
 
 ## 👥 Team
-- **Pratim Kanrar** - [pratimkanrar](https://github.com/pratimkanrar)
-- **Soumik Sen** - [insane2899](https://github.com/insane2899)
+- **Pratim Kanrar** - [Pratim Kanrar](https://github.com/pratimkanrar)
+- **Soumik Sen** - [Soumik Sen](https://github.com/insane2899)
 - **Aditi Nath** - [Aditi Nath](https://github.com/Aditi3100)
 - **Biswajit Bhunia** - [Biswajit Bhunia](https://github.com/bisw0)
