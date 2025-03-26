@@ -51,6 +51,9 @@ Frontend: React
    ```
 4. Run the backend  
    ```sh
+   python parser.py
+   python datapreprocessing.py
+   python model.py
    python app.py
    ```
 5. Move to frontend (In new terminal)
