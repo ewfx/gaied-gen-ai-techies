@@ -19,11 +19,10 @@ A web application for categorizing banking related Emails
 ## 🎥 Demo
 
 
-https://github.com/user-attachments/assets/ce2ae9f4-4668-420c-a35d-e748db00834d
+
+https://github.com/user-attachments/assets/a73dbf8f-939f-4f9d-a937-7124c3cb02a8
 
 
-
-![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
 Manually filtering emails require significant amount of manual efforts and hours. If our system is able to automatically filter and route emails to the respective person, we'll be able to optimize our resources and make our processes more efficient.
@@ -36,7 +35,7 @@ Backend: Python, Flask, Gemini api
 Frontend: React
 
 ## 🚧 Challenges We Faced
-
+We faced challenges whil preparing training data for the model
 
 ## 🏃 How to Run
 1. Clone the repository  
