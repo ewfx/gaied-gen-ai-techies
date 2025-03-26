@@ -4,11 +4,13 @@ from model import GenerativeAIModel
 import os
 from parser import EMLParser
 from datapreprocessing import ChatHistoryProcessor
+import json
+
+# Initialize the EMLParser
+parser = EMLParser(input_directory="..\\data\\eml", output_directory="..\\data\\json")
 
 # Preparing the chat history
 def prepareChatHistory():
-    # Initialize the EMLParser
-    parser = EMLParser(input_directory="..\\data\\eml", output_directory="..\\data\\json")
 
     # Get the list of .eml files in the input directory
     eml_files = parser.get_eml_filenames(parser.input_directory)
@@ -44,8 +46,30 @@ def generate_response():
         # Get the .eml file content from the request
         eml_content = input_data["message"]
 
+        # Convert the .eml content into JSON object for reinforced learning
+        eml_json_content = parser.EMLToJson(eml_content)
+
         # Pass the .eml content to the Generative AI model
-        response_text = ai_model.generate_response(eml_content)
+        response_text = ai_model.generate_response(eml_json_content)
+
+        response_json_text = json.loads(response_text.replace("```json", "").replace("```", ""))
+
+
+        # Merge response_json_text and eml_json_content
+        merged_data = {**response_json_text, **json.loads(eml_json_content)}
+
+        # Append the merged data to ../data/chathistory.json
+        chathistory_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'chathistory.json')
+        if os.path.exists(chathistory_path):
+            with open(chathistory_path, 'r+', encoding='utf-8') as file:
+                chathistory = json.load(file)
+                chathistory.append(merged_data)
+                file.seek(0)
+                json.dump(chathistory, file, indent=4)
+        else:
+            with open(chathistory_path, 'w', encoding='utf-8') as file:
+                json.dump([merged_data], file, indent=4)
+
 
         # Return the response
         return jsonify({"response": response_text}), 200

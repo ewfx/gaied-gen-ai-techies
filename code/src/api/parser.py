@@ -4,6 +4,7 @@ import json
 import datetime
 from email import policy
 from email.parser import BytesParser
+from io import BytesIO
 
 ############################################## Parse chat history / training data:
 class EMLParser: 
@@ -79,7 +80,7 @@ class EMLParser:
                 json.dump(email_data, json_file, indent=4)
     
 
-    def EMLToJson(eml_string):
+    def EMLToJson(self, eml_string):
         # Convert the string into a BytesIO stream
         eml_bytes = BytesIO(eml_string.encode())
 
@@ -106,7 +107,7 @@ class EMLParser:
             if part.get_content_disposition() == "attachment":
                 file_name = part.get_filename()
                 file_data = part.get_payload(decode=True)
-                attachments.append({"filename": file_name, "size": len(file_data)})
+                attachments.append({"filename": file_name})
 
         # Convert to JSON
         email_data = {

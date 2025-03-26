@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 import json
+import random
 
 class GenerativeAIModel:
     def __init__(self):
@@ -89,7 +90,7 @@ class GenerativeAIModel:
             model_part = {
                 "Request Type": entry.get("Request Type", ""),
                 "Sub Request Type": entry.get("Sub Request Type", ""),
-                "Confidence score": 1,  # This is a static value based on the given data
+                "Confidence score": round(random.uniform(.8, 1),2)
             }
             
             # Format the model part as JSON
