@@ -57,11 +57,11 @@ Frontend: React
    ```sh
    cd code\src\ui
    ```
-6. Install backend dependencies
+6. Install frontend dependencies
    ```sh
    npm install
    ```
-7. Run the backend  
+7. Run the frontend
    ```sh
    npm run start
    ```
