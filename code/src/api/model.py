@@ -50,7 +50,7 @@ class GenerativeAIModel:
                 Subject, Body and Attachments. 
 
                 Give me a output strictly in json with the following keys:
-                Request Type, Sub CategoryType, Confidence score based on how confident you are on the classification, extract that made you classify.
+                Request Type, Sub Request Type, Confidence score based on how confident you are on the classification, extract that made you classify.
             """,
         )
 
@@ -88,7 +88,7 @@ class GenerativeAIModel:
             # Create a part for the model role with the request type and subcategory type
             model_part = {
                 "Request Type": entry.get("Request Type", ""),
-                "Sub CategoryType": entry.get("Sub Request Type", ""),
+                "Sub Request Type": entry.get("Sub Request Type", ""),
                 "Confidence score": 1,  # This is a static value based on the given data
             }
             
